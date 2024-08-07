@@ -2,29 +2,21 @@
 <html>
 
 <head>
-<script src="listeJs.js"></script>
-<link rel="stylesheet" href="listecss.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <link rel="stylesheet" href="listecss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="container"></div>
-   <h1 id="titre"><i class="fa-solid fa-list-check list"></i>Tâches</h1>
-        
-            <input type="text" id="taskInput" placeholder="Enter a task..."> 
-            <button class="add-btn" onclick="addTask()">Add</button>
-            
-         <!-- <button class="delete-btn" onclick="deleteTask()">Delete</button>-->
-           <!--<button class="edit-btn" onclick="editTask()">Edit</button>--> 
-        </div>   
-    <div id="container1">
-      
-        <ul id="taskList">
-
-        </ul>     
+    <h1 id="titre"><i class="fa-solid fa-list-check list"></i>Tâches</h1>
     
+    <input type="text" id="taskInput" placeholder="Enter a task..."> 
+    <button class="add-btn" onclick="addTask()">Add</button>
+    
+    
+    <div id="container1">
+        <ul id="taskList"></ul>     
     </div>   
 
+    <script src="listeJs.js"></script>
 </body>
-
 </html>
