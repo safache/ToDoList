@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+   background: url(image/back.jpeg) no-repeat center fixed; 
+    background-size:  cover ;
+
+
+}
+.container {
+   min-height: auto;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+}
+/* Style for the input field */
+#taskInput {
+    width:400px;
+    padding: 10px;
+    height: 20px;
+    margin-top:0px;
+    margin-left: 35%;
+}
+/* Style for the buttons */
+
+.add-btn {
+  
+    background-color:hotpink;
+    color: white;
+    border: #d685d3;
+    cursor: pointer;
+    height: 36px;
+    width: 45px;
+}
+
+
+/* Style for the task list */
+ul{
+
+       text-align: left;
+       list-style-type:none;
+      /* padding-left:30px;*/
+     
+}
+#container1{
+    margin-top: 80px;
+    width:auto;
+    font-size:25px;
+    margin-left: 32%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+    
+}
+i {
+font-size:20px;
+}
+
+
+.check-icon
+{padding-left: 0px;
+    color:hotpink;}
+
+
+.edit-icon{
+    padding-left: 100px;
+    color: hotpink;
+}
+
+.list{
+    font-size: 30px;
+    padding-right: 13px;
+}
+#titre
+{   
+   
+    color:hotpink;
+    margin-top: 100px;
+    margin-left: 35%;
+    margin-bottom: 50px;
+}
+.edit-input 
+{
+    border: none;
+
+}
+.trash-icon
+{
+    padding-left: 15px;
+    color: hotpink;
+}
+li{ color: rgb(69, 4, 55);
+    margin-left: 5px;
+    margin-top: 14px;
+}
