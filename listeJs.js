@@ -5,7 +5,7 @@
     function addTask() { 
         var input = document.getElementById("taskInput").value; 
         var ul = document.getElementById("taskList"); 
-
+        
         if (input == "") {
             alert("Please enter a task.");
         } else {
@@ -39,7 +39,6 @@
     });
 
 
-    /*************************************toggle************************************** */
 
     
     function toggleCheckIcon(li, input) {
